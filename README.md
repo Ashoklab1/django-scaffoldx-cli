@@ -47,5 +47,43 @@ python manage.py scaffold --refresh-urls
 python manage.py scaffold --config tools/dev-config.json
 
 
+🔧 Available Flags
+| Flag | Description | 
+| --dry-run | Simulate all operations, but write nothing | 
+| --apps-only | Only create missing apps | 
+| --scaffold-only | Only add files and folders | 
+| --refresh-urls | Only update urls.py with includes | 
+| --verbose | Show timing and step logs | 
+| --no-tests | Skip generating tests.py files | 
+| --config | Use custom config file for app exclusion, etc. |
+👤 Author
+Built with precision and passion by @Ashoklab1
+Tooling to empower Django developers, one scaffold at a time.
+
+📄 License
+MIT © Ashoklab1
+
+---
+
+Let me know if you want to add:
+- Screenshots or terminal GIFs 🎞️
+- Version tags (e.g. `v0.1.0`)
+- Or even render this as a GitHub Pages-powered CLI doc site
+
+Let’s make this readme impossible to scroll past 🧨
+
+
+
+Built with precision and passion by @Ashoklab1
+Tooling to empower Django developers, one scaffold at a time.
+
+
+
+
+
+
+
+
+
 
 
