@@ -22,3 +22,30 @@ A power tool for Django developers to **bootstrap apps**, **autogenerate boilerp
 
 ```bash
 pip install colorama
+⚙️ Usage Examples
+# Scaffold all apps listed in settings.py (skipping built-ins)
+python manage.py scaffold
+
+
+# Preview changes only (no writes)
+python manage.py scaffold --dry-run
+
+
+# Only create apps (no files)
+python manage.py scaffold --apps-only
+
+
+# Only scaffold boilerplate (no app creation)
+python manage.py scaffold --scaffold-only
+
+
+# Refresh config/urls.py without modifying anything else
+python manage.py scaffold --refresh-urls
+
+
+# Pass a custom config (e.g. for CI or dev presets)
+python manage.py scaffold --config tools/dev-config.json
+
+
+
+
